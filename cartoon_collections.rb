@@ -5,8 +5,9 @@ end
 def summon_captain_planet(calls)
   summon_calls = []
   calls.map do |call|
-    summon_calls << call.capitalize.exclamation
+    summon_calls << call.capitalize
   end
+  summon_calls
 end
 
 def long_planeteer_calls# code an argument here
