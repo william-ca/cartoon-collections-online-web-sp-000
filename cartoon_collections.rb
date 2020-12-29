@@ -5,7 +5,7 @@ end
 def summon_captain_planet(calls)
   summon_calls = []
   calls.map do |call|
-    summon_calls << calls.upcase
+    summon_calls << call.upcase
   end
 end
 
