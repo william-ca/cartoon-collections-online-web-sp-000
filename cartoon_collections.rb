@@ -13,7 +13,7 @@ end
 
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheeses.each do |cheese|
-    cheese.include? cheese_types
+  cheeses.find do |cheese|
+    cheese_types.include?(cheese)
   end
 end
