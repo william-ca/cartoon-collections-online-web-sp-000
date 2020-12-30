@@ -16,5 +16,5 @@ def find_the_cheese(cheeses)
   cheeses.each do |cheese|
   if cheese.include? cheese_types
     return "#{cheese}"
-
+  end
 end
